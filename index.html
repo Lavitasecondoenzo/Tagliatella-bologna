@@ -3,58 +3,40 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>La Tagliatella - Ristorante Bolognese</title>
-  <meta name="description" content="La Tagliatella – ristorante bolognese in Via de' Falegnami, Bologna. Cucina tradizionale e moderna, in un ambiente elegante.">
-  <link rel="stylesheet" href="stile.css" />
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Roboto&display=swap" rel="stylesheet">
+  <title>Tagliatella - Handmade Pasta Bologna</title>
+  <meta name="description" content="Tagliatella - rolling pin handmade pasta Bologna. Cucina artigianale nel cuore di Bologna. Prenota ora.">
 
-  <!-- SEO Local Schema -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "Restaurant",
-    "name": "La Tagliatella",
-    "address": {
-      "@type": "PostalAddress",
-      "streetAddress": "Via de' Falegnami, 14",
-      "addressLocality": "Bologna",
-      "addressRegion": "BO",
-      "postalCode": "40121",
-      "addressCountry": "IT"
-    },
-    "telephone": "+39 051 123456",
-    "url": "https://tuosito.github.io",
-    "openingHours": "Mo-Su 12:00-15:00, 19:00-23:00",
-    "servesCuisine": "Cucina Bolognese"
-  }
-  </script>
+  <!-- FONT: stile insegna -->
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Space+Mono&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="stile.css" />
 </head>
 
 <body>
 
   <header>
-    <div class="container">
-      <h1>La Tagliatella</h1>
-      <nav>
-        <a href="#chi-siamo">Chi Siamo</a>
-        <a href="#menu">Menu</a>
-        <a href="#dove-siamo">Dove Siamo</a>
-        <a href="#contatti">Contatti</a>
-      </nav>
+    <div class="logo">
+      <h1>Tagliatella</h1>
+      <p>ROLLING PIN HANDMADE PASTA BOLOGNA</p>
     </div>
+    <nav>
+      <a href="#chi-siamo">Chi Siamo</a>
+      <a href="#menu">Menu</a>
+      <a href="#contatti">Contatti</a>
+    </nav>
   </header>
 
   <section class="hero">
-    <div class="container">
-      <h2>Cucina Bolognese con Eleganza</h2>
-      <p>Tradizione artigianale e gusto autentico nel cuore di Bologna</p>
+    <img src="img/copertina.jpg" alt="Pasta fatta a mano" />
+    <div class="hero-text">
+      <h2>Cucina artigianale bolognese</h2>
+      <a href="#contatti" class="btn">Prenota ora</a>
     </div>
   </section>
 
   <section id="chi-siamo" class="light">
     <div class="container">
       <h2>Chi Siamo</h2>
-      <p>La Tagliatella è il punto di riferimento per la cucina bolognese. Ogni piatto è preparato con ingredienti freschi e passione autentica. Situato in una location moderna ed elegante, il nostro ristorante accoglie gli ospiti con un'esperienza culinaria indimenticabile.</p>
+      <p>Tagliatella è un ristorante artigianale nel cuore di Bologna. Ogni piatto è fatto a mano, ogni ingrediente scelto con cura. Un'esperienza autentica in un ambiente moderno e intimo.</p>
     </div>
   </section>
 
@@ -62,32 +44,28 @@
     <div class="container">
       <h2>Il Nostro Menu</h2>
       <div class="menu-grid">
-        <div><strong>Tagliatelle al Ragù</strong><br>La classica bolognese</div>
-        <div><strong>Tortellini in brodo</strong><br>Fatti a mano, cotti in brodo di carne</div>
-        <div><strong>Lasagne</strong><br>Con sfoglia sottile e ragù ricco</div>
-        <div><strong>Balanzoni</strong><br>Ricotta, spinaci e un tocco di salvia</div>
+        <div><strong>Tagliatelle al Ragù</strong><br>Tradizione pura</div>
+        <div><strong>Tortellini in brodo</strong><br>Ripieno artigianale</div>
+        <div><strong>Balanzoni</strong><br>Ricotta, spinaci, salvia</div>
+        <div><strong>Lasagne</strong><br>Con sfoglia fresca</div>
       </div>
     </div>
   </section>
 
-  <section id="dove-siamo" class="light">
+  <section id="contatti" class="light">
     <div class="container">
-      <h2>Dove Siamo</h2>
-      <p>📍 Via de' Falegnami, 14 – 40121 Bologna (BO)</p>
+      <h2>Contatti & Dove Siamo</h2>
+      <p>📍 Via de' Falegnami, 14 – Bologna</p>
+      <p>📞 <a href="tel:+39051123456">+39 051 123456</a></p>
+      <p>✉️ info@tagliatella.it</p>
       <div class="map-container">
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2848.300793874148!2d11.34009027596493!3d44.49642417107279!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x477fd4bbd0be6dcd%3A0x2ce1ef8e067474f4!2sLa%20Tagliatella%2C%20Via%20de'%20Falegnami%2C%2014%2C%2040121%20Bologna%20BO!5e0!3m2!1sit!2sit!4v1712434860000!5m2!1sit!2sit" loading="lazy" allowfullscreen></iframe>
       </div>
     </div>
   </section>
 
-  <footer id="contatti">
-    <div class="container">
-      <h3>Contatti</h3>
-      <p>📞 <a href="tel:+39051123456">+39 051 123456</a><br>
-      🕒 12:00–15:00 / 19:00–23:00<br>
-      ✉️ info@latagliatella.it</p>
-      <p>&copy; 2025 La Tagliatella – Tutti i diritti riservati</p>
-    </div>
+  <footer>
+    <p>&copy; 2025 Tagliatella – Tutti i diritti riservati</p>
   </footer>
 
 </body>
